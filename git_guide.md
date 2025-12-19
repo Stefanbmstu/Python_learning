@@ -43,7 +43,7 @@ rm id_rsa, id_rsa.pub
 ### Генерация нового SSH-ключа
 
 ```powershell
-ssh-keygen -t ed25519 -C "your.email@company.com"
+ssh-keygen -t ed25519
 
 # Жмём Enter на все вопросы (или задаём passphrase)
 ```
